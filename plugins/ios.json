@@ -18,6 +18,9 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.gimmegrub.nkdpizza"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.gimmegrub.nkdpizza"
         }
     },
     "dependent_plugins": {

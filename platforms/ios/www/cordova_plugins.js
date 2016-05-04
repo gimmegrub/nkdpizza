@@ -56,6 +56,15 @@ module.exports = [
         "clobbers": [
             "navigator.geolocation"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -65,7 +74,8 @@ module.exports.metadata =
     "cordova-plugin-dialogs": "1.2.1",
     "cordova-plugin-network-information": "1.2.1",
     "cordova-plugin-compat": "1.0.0",
-    "cordova-plugin-geolocation": "2.2.0"
+    "cordova-plugin-geolocation": "2.2.0",
+    "cordova-plugin-inappbrowser": "1.4.0"
 }
 // BOTTOM OF METADATA
 });

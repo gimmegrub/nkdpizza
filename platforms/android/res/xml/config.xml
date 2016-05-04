@@ -14,6 +14,9 @@
     <feature name="Geolocation">
         <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <allow-intent href="market:*" />
     <name>NKDPizza</name>
     <description>
@@ -23,7 +26,7 @@
         Real Time Ordering
     </author>
     <content src="index.html" />
-    <icon src="icon.jpeg" />
+    <icon src="icon.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

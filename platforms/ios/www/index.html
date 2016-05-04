@@ -43,7 +43,8 @@
     if (navigator.connection.type == Connection.NONE) {
       navigator.notification.alert('An internet connection is required to continue');
     } else {
-      window.location="http://order.nkdpizza.com";
+    //  window.location="http://order.nkdpizza.com";
+    var ref = window.open('http://order.nkdpizza.com', '_blank', 'location=no,toolbar=no');
     }
   }
   document.addEventListener("deviceready", onDeviceReady, false);
