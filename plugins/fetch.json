@@ -7,12 +7,36 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-inappbrowser": {
+    "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-inappbrowser"
+            "id": "cordova-plugin-dialogs"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }
