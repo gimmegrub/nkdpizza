@@ -39,6 +39,9 @@
         <div class="app">
         </div>
          <script>
+               window.location="http://order.nkdpizza.com";
+
+
   function onDeviceReady() {
     if (navigator.connection.type == Connection.NONE) {
       navigator.notification.alert('An internet connection is required to continue');
@@ -46,6 +49,7 @@
     //  window.location="http://order.nkdpizza.com";
     var ref = window.open('http://order.nkdpizza.com', '_blank', 'location=no,toolbar=no');
     }
+
   }
   document.addEventListener("deviceready", onDeviceReady, false);
 </script>
